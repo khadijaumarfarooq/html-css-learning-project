@@ -51,13 +51,16 @@ h2 {
 }
 /* Borders */
 .schedule {
-    border: 2px solid #03dac6;
+    border: 2px solid #5b8d5f;
 }
 .todo{ 
     border: 2px dashed #bb86fc;
 }
 .goals{
     border: 2px dotted #ff9800;
+}
+.overflow {
+    border: 2px solid salmon;
 }
 /* Itms */
 .schedule-items,.todo-items{
@@ -91,4 +94,33 @@ footer {
     color: #03dac6;
     margin-top: 20px;
     font-size: 14px;
+}
+section img {
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.img-gray {
+    filter: grayscale(100%);
+}
+.img-contrast{
+    filter: contrast(200%);
+}
+.img-invert{
+    filter: invert(2);
+}
+.img-opacity{
+    filter: opacity(0.6);
+}
+.img-sturate{
+    filter: saturate(200%);
+}
+.img-blur{
+    filter: blur(3px);
+}
+.box {
+    
+    width: 45%;
+    padding: 10px;
 }
